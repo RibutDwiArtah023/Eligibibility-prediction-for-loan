@@ -1,4 +1,4 @@
-import plotly.express as px
+# import plotly.express as px
 from sklearn.utils.validation import joblib
 
 import streamlit as st
@@ -23,8 +23,8 @@ import pickle
 from sklearn import metrics
 
 # intial template
-px.defaults.template = "plotly_dark"
-px.defaults.color_continuous_scale = "reds"
+# px.defaults.template = "plotly_dark"
+# px.defaults.color_continuous_scale = "reds"
 
 
 st.title('Prediksi Kelayakan Untuk Pinjaman Rumah')
